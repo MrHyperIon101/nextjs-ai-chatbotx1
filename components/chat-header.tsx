@@ -67,13 +67,6 @@ function PureChatHeader({
         />
       )}
 
-      <Button
-        className="bg-zinc-900 dark:bg-zinc-100 hover:bg-zinc-800 dark:hover:bg-zinc-200 text-zinc-50 dark:text-zinc-900 hidden md:flex py-1.5 px-2 h-fit md:h-[34px] order-4 md:ml-auto"
-        asChild
-      ><div className='flex items-center gap-1'>
-          <VercelIcon size={16} />
-          <p>Deploy with Vercel</p></div>
-      </Button>
     </header>
   );
 }
